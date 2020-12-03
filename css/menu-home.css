@@ -166,18 +166,18 @@
   @media screen and (min-width: 750px) and (max-width: 1024px) {
   
       header{
-            background-color: orange;
-            width: 100%;
-            height: 145px;
-        }
+        background-image: url("../images/home page foto.jpg");
+        height: 100vh;
+        background-position: center;
+      }
   
         .item-navigatie{
             display: none;
         }
   
         .logo{
-        margin-left: 39.8vw;
-            height: 150px;
+            margin-left: 35vw;
+            height: 180px;
         }
   
       .menu-wrap{
