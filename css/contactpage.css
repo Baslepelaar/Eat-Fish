@@ -7,6 +7,16 @@
 @media screen and (min-width: 100px) and (max-width: 768.9px) {
 
 
+#reservering{
+  display: none
+}
+
+.vis-gerecht{
+  display: none;
+}
+h1{
+  display: none;
+}
 
 #maps{
 	margin-left: 7vw;
@@ -51,6 +61,18 @@ footer{
 }
 /* tablet/ipad */
 @media screen and (min-width: 750px) and (max-width: 1024px) {
+
+  #reservering{
+    display: none
+  }
+
+  .vis-gerecht{
+    display: none;
+  }
+
+  h1{
+    display: none;
+  }
 
   #maps{
   	margin-left: 5vw;
@@ -101,8 +123,38 @@ footer{
 /* desktop */
 @media screen and (min-width: 1024px) {
 
+  h1{
+    position: absolute;
+    left: 22vw;
+
+  }
+
+  .vis-gerecht{
+    position: absolute;
+    right: 5vw;
+    margin-top: 2vh;
+    height: 400px;
+  }
+
+  #reservering{
+    position: absolute;
+    left: 22vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+  }
+
+  input{
+  margin-bottom: 1vh;
+  border-radius: 20px;
+  border: 1px solid #1D1D1D;
+  }
+
+
+
 
     #maps{
+      display: none;
     	margin-left: 5vw;
     	margin-top: 3vh;
       width:90%;
@@ -175,6 +227,7 @@ footer{
     }
 
     #copyright{
+      display: none;
     	font-size: 1rem;
     	color: #CCCCCC;
     	text-align: center;
@@ -182,7 +235,7 @@ footer{
     }
 
     .footerkop{
-    	font-size: 2.2rem;
+
     	text-align: center;
     	font-family: 'Roboto', sans-serif;
       font-weight: 500;
