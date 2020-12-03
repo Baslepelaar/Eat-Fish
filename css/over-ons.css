@@ -18,6 +18,21 @@
         text-align: center;
     }
 
+
+.item-onsRestaurant {
+    height: 20vh;
+    width: 20vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    border-radius: 20%;
+    position: absolute;
+}
+
+.item-allesOverOns {
+    margin-top: 15vh;
+    margin-left: 40vw;
+}
+
     .item-maintext{
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
