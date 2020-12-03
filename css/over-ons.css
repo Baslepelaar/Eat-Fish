@@ -52,14 +52,14 @@
 .item-eigenaar {
     height: 15vh;
     width: 33vw;
-    margin-top: 14vh;
+    margin-top: 13vh;
     margin-left: 10vw;
     border-radius: 20%;
     position: absolute;
 }
 
 .item-infoEigenaar {
-    margin-top: 14vh;
+    margin-top: 12vh;
     margin-left: 45vw;
     font-size: 15px;
 }
