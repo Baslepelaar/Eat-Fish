@@ -22,6 +22,12 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
     }
+
+    .item-maintext p {
+        width: 350px;
+        text-align: center;
+        margin-left: 4vw;
+    }
     
     .item-pcfooter{
         display: none;
