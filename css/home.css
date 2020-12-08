@@ -23,13 +23,13 @@
 /* Tabled */
 @media screen and (min-width: 600px) and (max-width: 921px) {
 
-    .item-maintext{
+    .item-maintext {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
     }
 
     .item-maintext p {
-        width: 1050px;
+        width: 675px;
         text-align: center;
         margin-left: 4vw;
     }
