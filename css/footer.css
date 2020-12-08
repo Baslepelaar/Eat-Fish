@@ -8,8 +8,7 @@
 /* Telefoon */
 @media screen and (min-width: 100px) and (max-width:768.9px) {
 
-    footer{
-        position: fixed;
+    footer {
         left: 0;
         bottom: 0;
         width: 100%;
@@ -18,7 +17,7 @@
         text-align: center;
     }
 
-    .item-maintext{
+    .item-maintext {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
     }
@@ -29,22 +28,22 @@
         margin-left: 4vw;
     }
 
-    .item-pcfooter{
+    .item-pcfooter {
         display: none;
     }
-    .socials{
+    .socials {
         height: 40px;
         padding-right: 15px;
         padding-left: 15px;
     }
 
-    #copyright{
+    #copyright {
         font-size: 0.7rem;
         color: #CCCCCC;
         text-align: center;
     }
 
-    .footerkop{
+    .footerkop {
         font-size: 1.7rem;
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -53,8 +52,7 @@
 
 /* Tabled */
 @media screen and (min-width: 750px) and (max-width: 1024px) {
-footer{
-  position: fixed;
+footer {
  left: 0;
  bottom: 0;
  width: 100%;
@@ -63,24 +61,24 @@ footer{
  text-align: center;
 }
 
-.item-pcfooter{
+.item-pcfooter {
     display: none;
 }
-.socials{
+.socials {
     height: 45px;
     padding-right: 21px;
     padding-left: 21px;
   padding-top: 1vh;
 }
 
-#copyright{
+#copyright {
     font-size: 1rem;
     color: #CCCCCC;
     text-align: center;
   padding-top: 1vh;
 }
 
-.footerkop{
+.footerkop {
     font-size: 2.2rem;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -91,8 +89,7 @@ footer{
 /* Computer */
 @media screen and (min-width: 769px) {
 
-    footer{
-        position: fixed;
+    footer {
          left: 0;
          bottom: 0;
          width: 100%;
@@ -102,24 +99,24 @@ footer{
 
         }
 
-        .item-pcfooter{
+        .item-pcfooter {
 
         }
 
-        .item-adres{
+        .item-adres {
           position: absolute;
           left: 10vw;
           margin-bottom: 10vh;
 
         }
 
-        .item-adres h3{
+        .item-adres h3 {
           position: absolute;
           left: 2vw;
           top: 0vh;
         }
 
-        .item-adres p{
+        .item-adres p {
           position: absolute;
           left: 2vw;
           top: 5vh;
@@ -134,18 +131,18 @@ footer{
       }
 
 
-      .item-betalen{
+      .item-betalen {
         position: absolute;
         left: 60vw;
 
       }
 
-      .item-socials{
+      .item-socials {
         position: absolute;
         left: 85vw;
       }
 
-        .socials{
+        .socials {
             height: 30px;
             padding-right: 21px;
             padding-left: 15px;
@@ -153,14 +150,14 @@ footer{
 
         }
 
-        #copyright{
+        #copyright {
             font-size: 1rem;
             color: #CCCCCC;
             text-align: center;
           padding-top: 24vh;
         }
 
-        .footerkop{
+        .footerkop {
             font-size: 2.2rem;
             text-align: center;
             font-family: 'Roboto', sans-serif;
