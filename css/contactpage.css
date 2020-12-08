@@ -4,7 +4,7 @@
   margin: 0;
 }
 /* telefoon */
-@media screen and (min-width: 100px) and (max-width: 768.9px) {
+@media screen and (min-width: 100px) and (max-width:768.9px) {
 
 
 #reservering{
@@ -34,7 +34,7 @@ h1{
 
 }
 /* tablet/ipad */
-@media screen and (min-width: 750px) and (max-width: 1024px) {
+@media screen and (min-width: 750px) {
 
   #reservering{
     display: none
@@ -63,7 +63,7 @@ h1{
 
 }
 /* desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 922px) {
 
   h1{
     position: absolute;
