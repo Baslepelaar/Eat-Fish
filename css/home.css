@@ -6,7 +6,7 @@
 }
 
 /* Telefoon */
-@media screen and (min-width: 100px) and (max-width:768.9px) {
+@media screen and (min-width: 100px) and (max-width: 599px) {
 
     .item-maintext{
         font-family: 'Montserrat', sans-serif;
@@ -21,22 +21,23 @@
 }
     
 /* Tabled */
-@media screen and (min-width: 750px) and (max-width: 1024px) {
-footer{
-    position: relative;
- left: 0;
- bottom: 0;
- width: 100%;
- background-color: #1D1D1D;
- color: #FF9100;
- text-align: center;
-}
+@media screen and (min-width: 600px) and (max-width: 921px) {
 
+    .item-maintext{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    .item-maintext p {
+        width: 1050px;
+        text-align: center;
+        margin-left: 4vw;
+    }
 
 }
 
 /* Computer */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 922px) {
 	
 }
 
