@@ -163,12 +163,13 @@
   
   }
   /* tablet.ipad */
-  @media screen and (min-width: 750px) and (max-width: 1024px) {
+  @media screen and (min-width: 600px) {
   
       header{
         background-image: url("../images/home page foto.jpg");
         height: 100vh;
         background-position: center;
+        background-repeat: none;
       }
   
         .item-navigatie{
@@ -176,7 +177,7 @@
         }
   
         .logo{
-            margin-left: 35vw;
+            margin-left: 28vw;
             height: 180px;
         }
   
