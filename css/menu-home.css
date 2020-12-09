@@ -1,6 +1,6 @@
 
 /* telefoon */
-@media screen and (min-width: 0px) and (max-width: 750px) {
+@media screen and (min-width: 100px) and (max-width: 599px) {
 
 
     header{
@@ -14,8 +14,8 @@
       }
   
       .logo{
-      margin-left: 24vw;
-          height: 120px;
+        margin-left: 24vw;
+        height: 110px;
       }
   
     .menu-wrap{
@@ -163,7 +163,7 @@
   
   }
   /* tablet.ipad */
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 600px) and (max-width: 921px) {
   
       header{
         background-image: url("../images/home page foto.jpg");
@@ -317,11 +317,53 @@
       .toggler:checked ~ .menu > div > div{
           opacity: 1;
       }
+}
+
+/* desktop */
+@media screen and (min-width: 751px) {
+
+
+    header {
+        background-image: url("../images/home page foto.jpg");
+        height: 100vh;
+        background-position: center;
+        background-repeat: none;
+    }
   
+    .item-navigatie {
+        float: right;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+    .item-navigatie ul {
+        list-style: none;
+        font-weight: bold;
+    }
   
+    .item-navigatie li {
+        float: left;
+        padding: 2vh;
+        margin: 30px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
   
+    }
+    .item-navigatie li a {
+        text-decoration: none;
+    }
+    .item-navigatie li a:hover {
+        color: #FF9100;
+    }
+    .item-navigatie ul li a {
+        color: #FF9100;
+    }
   
+    .logo {
+        margin-left: 8vw;
+        height: 120px;
+    }
   
-  
-  }
-  
+    .menu-wrap {
+        display: none;
+    }  
+}
