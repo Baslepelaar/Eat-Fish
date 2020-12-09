@@ -40,10 +40,8 @@
 }
 
 /* Tabled */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) and (max-width:1025.9px) {
   footer {
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color: #1D1D1D;
     color: #FF9100;
@@ -76,11 +74,10 @@
 }
 
 /* Computer */
-@media screen and (min-width: 922px) {
+@media screen and (min-width: 1026px)  {
 
     footer {
-         left: 0;
-         bottom: 0;
+        margin-top: 10vh;
          width: 100%;
          height: 200px;
          background-color: #1D1D1D;
@@ -147,9 +144,9 @@
         }
 
         .footerkop {
-            font-size: 2.2rem;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
+          font-size: 2.2rem;
+          text-align: center;
+          font-family: 'Roboto', sans-serif;
           font-weight: 500;
         }
 }

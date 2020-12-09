@@ -1,8 +1,4 @@
-*{
 
-  padding: 0;
-  margin: 0;
-}
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width:768.9px) {
 
@@ -34,7 +30,7 @@ h1{
 
 }
 /* tablet/ipad */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) and (max-width:1025.9px) {
 
   #reservering{
 
@@ -45,7 +41,7 @@ h1{
   }
 
   h1{
-  
+
   }
 
   #maps{
