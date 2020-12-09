@@ -78,18 +78,13 @@
 
     footer {
         position: relative;
-         left: 0;
-         bottom: 0;
-         width: 100%;
-         height: 200px;
-         background-color: #1D1D1D;
-         color: #FF9100;
-
-
-        }
-
-        .item-pcfooter {
-
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 200px;
+        background-color: #1D1D1D;
+        color: #FF9100;
+        font-family: 'Roboto', sans-serif;
         }
 
         .item-adres {
