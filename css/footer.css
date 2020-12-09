@@ -40,11 +40,7 @@
 }
 
 /* Tabled */
-<<<<<<< Updated upstream
-@media screen and (min-width: 750px) and (max-width:1025.9px) {
-=======
 @media screen and (min-width: 600px) and (max-width: 921px) {
->>>>>>> Stashed changes
   footer {
     width: 100%;
     background-color: #1D1D1D;
@@ -81,13 +77,9 @@
 @media screen and (min-width: 1026px)  {
 
     footer {
-<<<<<<< Updated upstream
-        margin-top: 10vh;
-=======
         position: relative;
          left: 0;
          bottom: 0;
->>>>>>> Stashed changes
          width: 100%;
          height: 200px;
          background-color: #1D1D1D;
