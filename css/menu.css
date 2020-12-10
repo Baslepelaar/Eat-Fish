@@ -163,7 +163,7 @@
 
 }
 /* tablet.ipad */
-@media screen and (min-width: 750px) and (max-width: 1024px) {
+@media screen and (min-width: 750px) and (max-width:1025.9px) {
 
     header{
   		background-color: #1D1D1D;
@@ -323,7 +323,7 @@
 }
 
 /* desktop */
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 1026px) {
 
 
   header{
