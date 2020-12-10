@@ -6,7 +6,9 @@
 }
 
 /* Telefoon */
-@media screen and (min-width: 100px) and (max-width: 599px) {
+
+@media screen and (min-width: 100px) and (max-width:768.9px) {
+
     footer {
         left: 0;
         bottom: 0;
@@ -38,8 +40,8 @@
     }
 }
 
-/* Tablet */
-@media screen and (min-width: 750px) and (max-width:1025.9px) {
+/* Tabled */
+@media screen and (min-width: 769px) and (max-width:1025.9px) {
   footer {
 
     width: 100%;

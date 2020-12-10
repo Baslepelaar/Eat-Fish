@@ -1,4 +1,4 @@
-/* telefoon /
+/* telefoon */
 @media screen and (min-width: 100px) and (max-width:768.9px) {
 
 
@@ -57,7 +57,7 @@ h1{
 
 
 }
-/ desktop */
+/* desktop */
 @media screen and (min-width: 922px) {
 
   h1{
@@ -66,20 +66,35 @@ h1{
   }
 
 
+  #flexbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .item-contact{
+    margin-left: 3vw;
+    margin-top: 5vh;
+    border: 1px solid #FF9100;
+    background-color: #CACACA;
+    width: 20vw;
+    height: 45vh;
+    text-align: center;
+    font-size: 1.9rem;
+  }
 
+  .item-contact p{
+  margin-bottom: 1vh;
+  }
 
+  #maps{
+    margin-right: 3vw;
+    width:50%;
+    height:71vh ;
+    frameborder:0;
+    border:solid 1px black;
 
-    #maps{
-      position: absolute;
-      right: 5vw;
-      top: 8vh;
-      width:50%;
-      height:410px ;
-      frameborder:0;
-      border:solid 1px black;
-
-    }
+  }
 
 
 }
