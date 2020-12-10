@@ -2,58 +2,65 @@
 @media screen and (min-width: 100px) and (max-width:768.9px) {
 
 
-#reservering{
-  display: none
-}
+  .item-contact{
+    margin-left: 15vw;
+    margin-top: 5vh;
+    border: 1px solid #FF9100;
+    background-color: #CACACA;
+    width: 70vw;
+    height: 50vh;
+    text-align: center;
+  }
 
-.vis-gerecht{
-  display: none;
-}
+  #maps{
 
-
-
-h1{
-  display: none;
-}
-
-#maps{
-    margin-left: 7vw;
-    margin-top: 8vh;
-  width:85%;
-  height:390px ;
-  frameborder:0;
-  border:solid 1px black;
-}
-
+  	margin-top: 8vh;
+    width:100%;
+    height:390px ;
+    frameborder:0;
+    border:solid 1px black;
+  }
 
 
 }
 /* tablet/ipad */
 @media screen and (min-width: 769px) and (max-width:1025.9px)  {
 
-  #reservering{
-
-  }
-
-  .vis-gerecht{
-    display: none;
-  }
-
-  h1{
-
-  }
-
-  #maps{
-      margin-left: 5vw;
-      margin-top: 3vh;
-    width:90%;
-    height:410px ;
-    frameborder:0;
-    border:solid 1px black;
-
-  }
 
 
+    #flexbox{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+
+    .item-contact{
+      margin-left: 3vw;
+      margin-top: 5vh;
+      border: 1px solid #FF9100;
+      background-color: #CACACA;
+      width: 40vw;
+      height: 32vh;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
+    .item-contact p{
+    margin-bottom: 1vh;
+    }
+
+
+
+    #maps{
+    	margin-top: 3vh;
+      margin-right: 5vw;
+      width:40vw;
+      height:500px ;
+      frameborder:0;
+      border:solid 1px black;
+
+    }
 
 
 }
