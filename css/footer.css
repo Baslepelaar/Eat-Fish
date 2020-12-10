@@ -6,15 +6,9 @@
 }
 
 /* Telefoon */
-<<<<<<< HEAD
-@media screen and (min-width: 100px) and (max-width: 599px) {
-=======
+
 @media screen and (min-width: 100px) and (max-width:768.9px) {
 
-<<<<<<< HEAD
->>>>>>> parent of cd33936... Merge branch 'master' of https://github.com/Baslepelaar/Eat-Fish
-=======
->>>>>>> parent of cd33936... Merge branch 'master' of https://github.com/Baslepelaar/Eat-Fish
     footer {
         left: 0;
         bottom: 0;
@@ -47,7 +41,7 @@
 }
 
 /* Tabled */
-@media screen and (min-width: 750px) and (max-width:1025.9px) {
+@media screen and (min-width: 769px) and (max-width:1025.9px) {
   footer {
 
     width: 100%;

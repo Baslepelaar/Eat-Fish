@@ -8,6 +8,11 @@
 /* Telefoon */
 @media screen and (min-width: 100px) and (max-width: 599px) {
 
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .item-maintext{
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
@@ -16,11 +21,12 @@
     .item-maintext p {
         width: 300px;
         text-align: center;
-        margin-left: 4.3vw;
+        /* padding-left: 7vw;
+        padding-right: 7vw; */
     }
 }
     
-/* Tabled */
+/* Tablet */
 @media screen and (min-width: 600px) and (max-width: 921px) {
 
     .item-maintext {
@@ -47,7 +53,7 @@
     }
 
     .item-maintext p {
-        width: 1500px;
+        width: 1200px;
         text-align: center;
         margin-left: 9vw;
     }
