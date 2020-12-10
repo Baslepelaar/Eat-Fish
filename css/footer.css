@@ -6,7 +6,11 @@
 }
 
 /* Telefoon */
+<<<<<<< HEAD
 @media screen and (min-width: 100px) and (max-width:768.9px) {
+=======
+@media screen and (min-width: 100px) and (max-width: 599px) {
+>>>>>>> parent of dab244d... telefoon niet meer scroll baar van links naar rechts
 
     footer {
         left: 0;
