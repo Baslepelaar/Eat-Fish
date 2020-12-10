@@ -8,20 +8,15 @@
 /* Telefoon */
 @media screen and (min-width: 100px) and (max-width: 599px) {
 
-    body{
-        overflow-x: hidden;
-    }
-
-
     .item-maintext{
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
     }
 
     .item-maintext p {
-        width: 250px;
+        width: 300px;
         text-align: center;
-        padding-left: 17vw;
+        margin-left: 4.3vw;
     }
 }
     
@@ -47,9 +42,14 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 20px;
-        padding-top: 25px;            
-        padding-left: 6vw;
-        padding-right: 6vw;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
-} 
+
+    .item-maintext p {
+        width: 1500px;
+        text-align: center;
+        margin-left: 9vw;
+    }
+}
 
