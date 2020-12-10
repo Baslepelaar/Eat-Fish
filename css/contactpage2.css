@@ -73,14 +73,14 @@ h1{
   }
 
   .item-contact{
-    margin-left: 3vw;
-    margin-top: 5vh;
+    margin-left: 15vw;
+    margin-top: 15vh;
     border: 1px solid #FF9100;
     background-color: #CACACA;
-    width: 20vw;
-    height: 45vh;
+    width: 22vw;
+    height: 55vh;
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 1.1rem;
   }
 
   .item-contact p{
@@ -88,9 +88,10 @@ h1{
   }
 
   #maps{
+    margin-top: 5vh;
     margin-right: 3vw;
     width:50%;
-    height:71vh ;
+    height: 71vh;
     frameborder:0;
     border:solid 1px black;
 
