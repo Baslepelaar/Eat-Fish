@@ -8,10 +8,14 @@
 /* Telefoon */
 @media screen and (min-width: 100px) and (max-width: 599px) {
 
+  body{
+    overflow-x: hidden;
+}
+
     footer {
         left: 0;
         bottom: 0;
-        width: 100%;
+        width: 100vw;
         background-color: #1D1D1D;
         color: #FF9100;
         text-align: center;
