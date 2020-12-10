@@ -1,0 +1,85 @@
+/* telefoon /
+@media screen and (min-width: 100px) and (max-width:768.9px) {
+
+
+#reservering{
+  display: none
+}
+
+.vis-gerecht{
+  display: none;
+}
+
+
+
+h1{
+  display: none;
+}
+
+#maps{
+    margin-left: 7vw;
+    margin-top: 8vh;
+  width:85%;
+  height:390px ;
+  frameborder:0;
+  border:solid 1px black;
+}
+
+
+
+}
+/ tablet/ipad /
+@media screen and (min-width: 750px) and (max-width:1025.9px) {
+
+  #reservering{
+
+  }
+
+  .vis-gerecht{
+    display: none;
+  }
+
+  h1{
+
+  }
+
+  #maps{
+      margin-left: 5vw;
+      margin-top: 3vh;
+    width:90%;
+    height:410px ;
+    frameborder:0;
+    border:solid 1px black;
+
+  }
+
+
+
+
+}
+/ desktop */
+@media screen and (min-width: 922px) {
+
+  h1{
+
+
+  }
+
+
+
+
+
+
+    #maps{
+      position: absolute;
+      right: 5vw;
+      top: 8vh;
+      width:50%;
+      height:410px ;
+      frameborder:0;
+      border:solid 1px black;
+
+    }
+
+
+}
