@@ -9,6 +9,7 @@
 @media screen and (min-width: 100px) and (max-width: 599px) {
 
     body{
+        max-width: 100%;
         overflow-x: hidden;
     }
 
@@ -20,12 +21,12 @@
     .item-maintext p {
         width: 300px;
         text-align: center;
-        padding-left: 7vw;
-        padding-right: 7vw;
+        /* padding-left: 7vw;
+        padding-right: 7vw; */
     }
 }
     
-/* Tabled */
+/* Tablet */
 @media screen and (min-width: 600px) and (max-width: 921px) {
 
     .item-maintext {
@@ -52,7 +53,7 @@
     }
 
     .item-maintext p {
-        width: 1500px;
+        width: 1200px;
         text-align: center;
         margin-left: 9vw;
     }
