@@ -8,10 +8,14 @@
 /* Telefoon */
 @media screen and (min-width: 100px) and (max-width:768.9px) {
 
+  body{
+    overflow-x: hidden;
+}
+
     footer {
         left: 0;
         bottom: 0;
-        width: 100%;
+        width: 100vw;
         background-color: #1D1D1D;
         color: #FF9100;
         text-align: center;
@@ -78,16 +82,14 @@
 @media screen and (min-width: 1026px)  {
 
     footer {
-        margin-top: 10vh;
-         width: 100%;
-         height: 200px;
-         background-color: #1D1D1D;
-         color: #FF9100;
-
-        }
-
-        .item-pcfooter {
-
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 200px;
+        background-color: #1D1D1D;
+        color: #FF9100;
+        font-family: 'Roboto', sans-serif;
         }
 
         .item-adres {
