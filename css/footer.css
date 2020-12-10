@@ -132,18 +132,19 @@
       }
 
         .socials {
-            height: 30px;
-            padding-right: 21px;
-            padding-left: 15px;
+          height: 30px;
+          padding-right: 21px;
+          padding-left: 15px;
           padding-top: 1vh;
 
         }
 
         #copyright {
-            font-size: 1rem;
-            color: #CCCCCC;
-            text-align: center;
-            padding-top: 24vh;
+          position: bottom;
+          font-size: 1rem;
+          color: #CCCCCC;
+          text-align: center;
+          padding-top: 24vh;
         }
 
         .footerkop {
