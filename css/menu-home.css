@@ -14,7 +14,7 @@
       }
   
       .logo{
-        margin-left: 24vw;
+        margin-left: 25vw;
         height: 110px;
       }
   
@@ -320,7 +320,7 @@
 }
 
 /* desktop */
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 922px) {
 
 
     header {
