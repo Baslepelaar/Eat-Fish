@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* telefoon */
-@media screen and (min-width: 100px) and (max-width:768.9px) {
+@media screen and (min-width: 100px) and (max-width:767.9px) {
 
 
 #reservering{
@@ -54,7 +54,7 @@ left: 27vw;
 
 }
 /* tablet/ipad */
-@media screen and (min-width: 769px) and (max-width:1025.9px) {
+@media screen and (min-width: 768px) and (max-width:1025.9px) {
 
 
   #flexbox{
@@ -70,15 +70,24 @@ left: 27vw;
     border: 1px solid #FF9100;
     background-color: #CACACA;
     width: 40vw;
-    height: 32vh;
+    height: 42vh;
+  }
+
+  #reservering p{
+
   }
 
   input{
-  width: 15vw;
+  width: 28vw;
+  height: 2vh;
   border-radius: 20px;
   border: 1px solid #1D1D1D;
   }
 
+  .item-15{
+    width: 2vw;
+    height: 1.5vh;
+  }
 
   .vis-gerecht{
     display: none;
@@ -89,12 +98,17 @@ left: 27vw;
     border: 1px solid #FF9100;
     background-color: #CACACA;
     width: 40vw;
-    height: 32vh;
+    height: 42vh;
     text-align: center;
+  }
+
+  .item-contact h3{
+    height: 4vh;
   }
 
   .item-contact p{
   margin-bottom: 1vh;
+  height: 4vh;
   }
 
 
@@ -102,8 +116,8 @@ left: 27vw;
   .item-h1{
   text-align: center;
   position: absolute;
-  top: 16vh;
-  left: 71vw;
+  top: 21vh;
+  left: 70vw;
   }
 
 
@@ -111,7 +125,7 @@ left: 27vw;
   #maps{
   	margin-top: 3vh;
     width:100%;
-    height:510px ;
+    height:490px ;
     frameborder:0;
     border:solid 1px black;
 
@@ -126,8 +140,8 @@ left: 27vw;
 
   .item-h1{
     position: absolute;
-    left: 22vw;
-    top: 27.5vh;
+    left: 23vw;
+    top: 33vh;
 
   }
 
@@ -135,7 +149,7 @@ left: 27vw;
     position: absolute;
     right: 5vw;
     top: 30vh;
-    height: 400px;
+    height: 430px;
   }
 
   .item-contact{
@@ -156,8 +170,14 @@ left: 27vw;
   margin-bottom: 1vh;
   border-radius: 20px;
   border: 1px solid #1D1D1D;
+  width: 19vw;
+  height: 3.5vh;
   }
 
+.item-15{
+  width: 2vw;
+  height: 2vh;
+}
 
 
     #maps{
@@ -170,6 +190,7 @@ left: 27vw;
       border:solid 1px black;
 
     }
+
 
 
 }
