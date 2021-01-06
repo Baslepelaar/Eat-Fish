@@ -19,7 +19,9 @@
   .rating {
     direction: rtl;
     position: absolute;
-    top: 53vh;
+    top: 60vh;
+    left: 18vw;
+    font-size: 28px;
   }
   .rating > span {
     display: inline-block;
@@ -103,16 +105,17 @@
 
 
 
-    #reservering{
+    #review{
       margin-left: 18vw;
       margin-top: 10vh;
+      padding-bottom: 8vh;
       border: 1px solid #FF9100;
       background-color: #CACACA;
       width: 20vw;
     }
 
     input{
-    margin-bottom: 1vh;
+    margin-bottom: 5vh;
     border-radius: 20px;
     border: 1px solid #1D1D1D;
     width: 19vw;
@@ -130,14 +133,14 @@
     position: absolute;
     top: 15vh;
     right: 5vw;
-    width: 50vw;
+    width: 45vw;
   }
 
   .review{
-    height: 300px;
+    height: 420px;
     position: absolute;
-    right: 5vw;
-    bottom: 25vh;
+    right: 12vw;
+    bottom: 1vh;
 
   }
 
