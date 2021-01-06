@@ -9,9 +9,9 @@
 @media screen and (min-width: 100px) and (max-width: 599px) {
 
     body{
+        max-width: 100%;
         overflow-x: hidden;
     }
-
 
     .item-maintext{
         font-family: 'Montserrat', sans-serif;
@@ -19,13 +19,14 @@
     }
 
     .item-maintext p {
-        width: 250px;
+        width: 300px;
         text-align: center;
-        padding-left: 17vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 }
     
-/* Tabled */
+/* Tablet */
 @media screen and (min-width: 600px) and (max-width: 921px) {
 
     .item-maintext {
@@ -36,7 +37,8 @@
     .item-maintext p {
         width: 675px;
         text-align: center;
-        margin-left: 6vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
     }
 
 }
@@ -47,9 +49,15 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 20px;
-        padding-top: 25px;            
-        padding-left: 6vw;
-        padding-right: 6vw;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
-} 
+
+    .item-maintext p {
+        width: 1200px;
+        text-align: center;
+        padding-left: 18vw;
+        padding-right: 18vw;
+    }
+}
 
