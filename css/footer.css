@@ -145,7 +145,7 @@
         }
 
         #copyright {
-          position: bottom;
+          /* position: bottom; */
           font-size: 1rem;
           color: #CCCCCC;
           text-align: center;
