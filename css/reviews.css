@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+
+/* telefoon */
+@media screen and (min-width: 100px) and (max-width:767.9px) {
+}
+
+
+/* tablet/ipad */
+@media screen and (min-width: 768px) and (max-width:1025.9px) {
+}
+
+/* desktop */
+@media screen and (min-width: 1026px) {
+
+
+
+
+  .rating {
+    direction: rtl;
+    position: absolute;
+    top: 60vh;
+    left: 18vw;
+    font-size: 28px;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+     color: yellow;
+ }
+
+
+
+  .heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+  .fa {
+    font-size: 25px;
+}
+
+  .checked {
+    color: orange;
+}
+
+
+  .side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+  }
+
+
+  .right {
+    text-align: center;
+  }
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .bar-container {
+    width: 50%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+
+
+  .bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+
+
+  .item-h1{
+    position: absolute;
+    left: 23vw;
+    top: 28vh;
+    }
+
+
+  .item-contact{
+    display: none;
+    }
+
+
+
+    #review{
+      margin-left: 18vw;
+      margin-top: 10vh;
+      padding-bottom: 8vh;
+      border: 1px solid #FF9100;
+      background-color: #CACACA;
+      width: 20vw;
+    }
+
+    input{
+    margin-bottom: 5vh;
+    border-radius: 20px;
+    border: 1px solid #1D1D1D;
+    width: 19vw;
+    height: 3.5vh;
+    }
+  .item-6{
+    padding-top: 5vh;
+    }
+
+  .item-15{
+    width: 2vw;
+    height: 2vh;
+  }
+  .ratings-menu{
+    position: absolute;
+    top: 15vh;
+    right: 5vw;
+    width: 45vw;
+  }
+
+  .review{
+    height: 420px;
+    position: absolute;
+    right: 12vw;
+    bottom: 1vh;
+
+  }
+
+
+
+}
