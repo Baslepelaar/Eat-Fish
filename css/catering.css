@@ -1,4 +1,8 @@
 @charset "UTF-8";
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width:767.9px) {
 
@@ -140,10 +144,15 @@ left: 27vw;
 
   .item-h1{
     position: absolute;
-    left: 23vw;
+    left: 25vw;
     top: 28vh;
-
   }
+table{
+    margin-left: 1.75vw;
+  }
+.voorwaarden, .item-button{
+      margin-left: 1.75vw;
+    }
 
   .vis-gerecht{
     position: absolute;
@@ -157,16 +166,16 @@ left: 27vw;
   }
 
 
-
   #catering{
     margin-left: 18vw;
     margin-top: 10vh;
     border: 1px solid #FF9100;
     background-color: #CACACA;
-    width: 20vw;
+    width: 23vw;
   }
 
   input{
+  text-align: center;
   margin-bottom: 1vh;
   border-radius: 20px;
   border: 1px solid #1D1D1D;

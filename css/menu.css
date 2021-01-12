@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width: 599px) {
 
@@ -344,7 +344,7 @@
 
   .item-navigatie li{
     float: left;
-    padding: 2vh;
+    padding: 1vh;
     margin: 30px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -371,10 +371,10 @@
 
 
   .dropbtn {
-padding: 16px;
-border: none;
-cursor: pointer;
-}
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  }
 
 .item-navigatie li {
   position: relative;
@@ -389,7 +389,7 @@ cursor: pointer;
 }
 
 .dropdown-content a {
-  
+
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   padding: 12px 16px;
@@ -401,8 +401,5 @@ cursor: pointer;
 #contact-item:hover .dropdown-content {
   display: block;
 }
-
-
-
 
 }

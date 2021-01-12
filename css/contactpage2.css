@@ -1,3 +1,9 @@
+@charset "UTF-8";
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width:768.9px) {
 
@@ -17,7 +23,6 @@
   	margin-top: 8vh;
     width:100%;
     height:390px ;
-    /* frameborder:0; */
     border:solid 1px black;
   }
 
@@ -57,7 +62,6 @@
       margin-right: 5vw;
       width:40vw;
       height:500px ;
-      /* frameborder: 0px; */
       border:solid 1px black;
 
     }
@@ -95,10 +99,10 @@
     margin-right: 3vw;
     width:50%;
     height: 71vh;
-    /* frameborder:0; */
     border:solid 1px black;
 
   }
+  
 
 
 }

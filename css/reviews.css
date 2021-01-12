@@ -1,5 +1,7 @@
 @charset "UTF-8";
-
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width:767.9px) {
@@ -131,8 +133,8 @@
   .rating {
     direction: rtl;
     position: absolute;
-    top: 60vh;
-    left: 18vw;
+    top: 61vh;
+    left: 19.5vw;
     font-size: 28px;
   }
   .rating > span {
@@ -203,22 +205,19 @@
 
 
 
-  .item-h1{
-    position: absolute;
-    left: 23vw;
-    top: 28vh;
-    }
+
 
     #review{
       margin-left: 18vw;
       margin-top: 10vh;
-      padding-bottom: 8vh;
+      padding-bottom: 3vh;
       border: 1px solid #FF9100;
       background-color: #CACACA;
-      width: 20vw;
+      width: 23vw;
     }
 
     input{
+    text-align: center;
     margin-bottom: 5vh;
     border-radius: 20px;
     border: 1px solid #1D1D1D;
@@ -246,5 +245,16 @@
     right: 12vw;
     bottom: 1vh;
   }
+  .item-h1{
+    position: absolute;
+    left: 27vw;
+    top: 28vh;
+  }
+table{
+    margin-left: 1.75vw;
+  }
+.voorwaarden, .item-button{
+      margin-left: 1.75vw;
+    }
 
 }
