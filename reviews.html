@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
 <meta http-equiv="language" content="nl">
 <meta name="viewport" content="width=device-width, intial-scale=1">
-<meta name="description" content="basispagina HTML">
+<meta name="description" content="reviews">
 <meta name="author" content="L. Adel">
-<meta name="keywords" content="vis restaurant">
-	<title>reservering</title>
-	<link rel="stylesheet" type="text/css" href="css/reviews.css">
-	<link rel="stylesheet" type="text/css" href="css/menu.css">
-  	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Roboto&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+<meta name="keywords" content="Eat fish, restaurant, vis">
+<title>reviews</title>
+<link rel="stylesheet" type="text/css" href="css/reviews.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -39,21 +41,25 @@
   			</div>
   		</div>
   	</div>
-    <img class="logo" src="images/boom.png" alt="logo">
+    <img class="logo" src="images/logo.png" alt="logo">
     <nav class="item-navigatie">
       <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Menu</a></li>
           <li><a href="#">Fotogallerij</a></li>
           <li><a href="#">Catering</a></li>
-          <li><a href="#">Over ons</a></li>
+          <li id="contact-item">
+            <a href="#" class="dropbtn">over ons</a>
+            <div class="dropdown-content">
+              <a href="#" class="contact-reservering">reservering</a>
+            </div>
+          </li>
           <li id="contact-item">
             <a href="#" class="dropbtn">Contact</a>
             <div class="dropdown-content">
               <a href="#" class="contact-reservering">reservering</a>
             </div>
           </li>
-
       </ul>
     </nav>
   </header>
@@ -61,30 +67,11 @@
 
   <section id="flexbox">
 
-    <article class="item-contact">
-      <h1>Contact<br><br></h1>
-      <h3>Adres:<br><br></h3>
-      <p>Betaplein 18 <br>2321 KS Leiden</p>
-      <h3>Telefoonnummer:<br><br></h3>
-      <p>0612345678</p>
-      <h3>Openingstijden</h3>
-      <p><br>
-        Maandag:15:00-22:00
-        <br>
-         Dinsdag: 15:00-22:00 <br>
-         Woensdag: 15:00-22:00 <br>
-         Donderdag: 15:00-22:00 <br>
-         Vrijdag: 15:00-23:00 <br>
-         Zaterdag: 15:00-23:00 <br>
-         Zondag: 15:00-22:00 <br>
-       </p>
-    </article>
-
 
 
     <h1 class="item-h1">reviews</h1>
 
-    <form action="#" id="reservering">
+    <form action="#" id="review">
     <table>
       <p><br><br><br><br></p>
       <tr>
@@ -94,51 +81,34 @@
       <tr>
         <td><input class="item-2" type="text" name="voornaam" placeholder=" Vul hier je voornaam in" pattern="[A-Z]{1}[a-z]+" required></td>
       </tr>
+
       <tr>
-        <td class="item-3">Achternaam*</td>
+      <td class="item-3">Email adres*</td>
       </tr>
       <tr>
-        <td><input class="item-4" type="text" name="achternaam" placeholder=" Vul hier je achternaam in" pattern="[A-Z]{1}[a-z]+" required ></td>
+        <td><input class="item-4" type="email" name="email" placeholder=" Vul hier je email adres in" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td>
+      </tr>
+
+
+      <tr>
+        <td class="item-5">Rating*</td>
       </tr>
       <tr>
-      <td class="item-5">Email adres*</td>
+        <div class="rating">
+    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+    </div>
       </tr>
       <tr>
-        <td><input class="item-6" type="email" name="email" placeholder=" Vul hier je email adres in" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td>
+        <td class="item-6">Opmerkingen*</td>
       </tr>
       <tr>
-        <td class="item-7">Datum*</td>
-      </tr>
-      <tr>
-        <td><input  class="item-8" type="date" name="date" required></td>
-      </tr>
-      <tr>
-        <td class="item-9">Tijd*</td>
-      </tr>
-      <tr>
-        <td><input  class="item-10" type="time" name="tijd" required></td>
-      </tr>
-      <tr>
-        <td class="item-11">Aantal personen*</td>
-      </tr>
-      <tr>
-          <td><input  class="item-12" type="number" name="aantal" placeholder=" met hoeveel personen komt u?" max="6"  required></td>
-      </tr>
-      <tr>
-        <td class="item-13">Opmerkingen*</td>
-      </tr>
-      <tr>
-          <td><input  class="item-14" type="text" name="opmerking" placeholder=" heeft u nog een opmerking?" required></td>
+          <td><input  class="item-7" type="text" name="opmerking" placeholder=" wat vind u van ons restaurant?" required></td>
       </tr>
 
     </table>
 
 
-        <article class="voorwaarden">
-          <a href="#">Akkoord met privacy voorwaarden</a>
 
-          <input class="item-15" type="checkbox" name="akkoord" value="akkoord" required>
-        </article>
       <section>
       <input class="item-button" type="button" value="verzenden">
 
@@ -148,6 +118,8 @@
   </section>
 
 
+
+<section class="ratings-menu">
 
 
 
@@ -170,7 +142,7 @@
       </div>
     </div>
     <div class="side right">
-      <div>150</div>
+      <div>167</div>
     </div>
     <div class="side">
       <div>4 star</div>
@@ -203,7 +175,7 @@
       </div>
     </div>
     <div class="side right">
-      <div>6</div>
+      <div>5</div>
     </div>
     <div class="side">
       <div>1 star</div>
@@ -214,9 +186,11 @@
       </div>
     </div>
     <div class="side right">
-      <div>20</div>
+      <div>4</div>
     </div>
   </div>
+  </section>
+  <img class="review" src="images/reviews-klanten2.png" alt="reviews van klanten">
 
   <footer>
     <article class="item-pcfooter">

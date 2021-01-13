@@ -1,8 +1,125 @@
 @charset "UTF-8";
-
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width:767.9px) {
+  .heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  .ratings-menu{
+    position: absolute;
+    top: 15vh;
+    width: 100%
+  }
+
+  .fa {
+    font-size: 25px;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+
+  .side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+  }
+
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+  }
+
+
+  .right {
+    text-align: center;
+  }
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .bar-container {
+    width: 50%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+
+
+  .bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+
+
+
+
+    .item-h1{
+      position: absolute;
+      left: 35vw;
+      top: 50vh;
+      }
+
+      #review{
+        margin-left: 18vw;
+        margin-top: 35vh;
+        padding-bottom: 2vh;
+        border: 1px solid #FF9100;
+        background-color: #CACACA;
+        width: 60vw;
+      }
+
+      input{
+      margin-bottom: 5vh;
+      border-radius: 20px;
+      border: 1px solid #1D1D1D;
+      width: 50vw;
+      height: 3.5vh;
+      }
+    .item-6{
+      padding-top: 5vh;
+      }
+
+    .item-15{
+      width: 2vw;
+      height: 2vh;
+    }
+  .rating {
+    direction: rtl;
+    position: absolute;
+    top: 113vh;
+    left: 17vw;
+    font-size: 28px;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+     color: yellow;
+  }
+
+
+.review{
+  height: 250px;
+}
 }
 
 
@@ -13,101 +130,131 @@
 /* desktop */
 @media screen and (min-width: 1026px) {
 
+  .rating {
+    direction: rtl;
+    position: absolute;
+    top: 61vh;
+    left: 19.5vw;
+    font-size: 28px;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+     color: yellow;
+ }
 
 
-
-
-
-.heading {
-  font-size: 25px;
-  margin-right: 25px;
+  .heading {
+    font-size: 25px;
+    margin-right: 25px;
 }
 
-.fa {
-  font-size: 25px;
+  .fa {
+    font-size: 25px;
 }
 
-.checked {
-  color: orange;
+  .checked {
+    color: orange;
 }
 
-/* Three column layout */
-.side {
-  float: left;
-  width: 15%;
-  margin-top:10px;
+
+  .side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
 }
 
-.middle {
-  margin-top:10px;
-  float: left;
-  width: 70%;
-}
-
-/* Place text to the right */
-.right {
-  text-align: center;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The bar container */
-.bar-container {
-  width: 50%;
-  background-color: #f1f1f1;
-  text-align: center;
-  color: white;
-}
-
-/* Individual bars */
-.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
-.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
-.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
-.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
-.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+  .middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+  }
 
 
-
-    .item-h1{
-      position: absolute;
-      left: 23vw;
-      top: 28vh;
-
-    }
+  .right {
+    text-align: center;
+  }
 
 
-    .item-contact{
-      display: none;
-    }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .bar-container {
+    width: 50%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+
+
+  .bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
 
 
 
-    #reservering{
+
+
+    #review{
       margin-left: 18vw;
       margin-top: 10vh;
+      padding-bottom: 3vh;
       border: 1px solid #FF9100;
       background-color: #CACACA;
-      width: 20vw;
+      width: 23vw;
     }
 
     input{
-    margin-bottom: 1vh;
+    text-align: center;
+    margin-bottom: 5vh;
     border-radius: 20px;
     border: 1px solid #1D1D1D;
     width: 19vw;
     height: 3.5vh;
+    }
+  .item-6{
+    padding-top: 5vh;
     }
 
   .item-15{
     width: 2vw;
     height: 2vh;
   }
+  .ratings-menu{
+    position: absolute;
+    top: 15vh;
+    right: 5vw;
+    width: 45vw;
+  }
 
-
+  .review{
+    height: 420px;
+    position: absolute;
+    right: 12vw;
+    bottom: 1vh;
+  }
+  .item-h1{
+    position: absolute;
+    left: 27vw;
+    top: 28vh;
+  }
+table{
+    margin-left: 1.75vw;
+  }
+.voorwaarden, .item-button{
+      margin-left: 1.75vw;
+    }
 
 }
