@@ -8,23 +8,23 @@
         height: 100vh;
         background-position: center;
       }
-  
+
       .item-navigatie{
           display: none;
       }
-  
+
       .logo{
         margin-left: 25vw;
         height: 110px;
       }
-  
+
     .menu-wrap{
         position: absolute;
         top: 0;
         left: 0;
         z-index: 2;
     }
-  
+
     .toggler{
         position: absolute;
         top: 0.5rem;
@@ -35,7 +35,7 @@
         opacity: 0;
         cursor: pointer;
     }
-  
+
     .hamburger{
         position: absolute;
         top: 0.5rem;
@@ -47,7 +47,7 @@
         align-items: center;
         justify-content: center;
     }
-  
+
     .hamburger>div{
         position: absolute;
         width: 60%;
@@ -56,7 +56,7 @@
         background-color: #FF9100;
         transition: .4s;
     }
-  
+
     .hamburger>div:before{
         content: '';
         position: absolute;
@@ -68,7 +68,7 @@
         left: 0;
         transition: .4s;
     }
-  
+
     .hamburger>div:after{
         content: '';
         position: absolute;
@@ -80,20 +80,20 @@
         left: 0;
         transition: .4s;
     }
-  
+
     .toggler:checked + .hamburger>div{
         transform: rotate(135deg);
     }
-  
+
     .toggler:checked:hover + .hamburger>div{
         transform: rotate(225deg);
     }
-  
+
     .toggler:checked + .hamburger>div:before, .toggler:checked + .hamburger>div:after{
         top: 0;
         transform: rotate(90deg);
     }
-  
+
     .menu{
         position: fixed;
         top: 0;
@@ -103,7 +103,7 @@
         visibility: hidden;
         transition: .6s;
     }
-  
+
     .menu > div{
         position: absolute;
         top: 50%;
@@ -119,18 +119,18 @@
         text-align: center;
         transition: .6s;
     }
-  
+
     .menu > div > div{
         max-width: 90vw;
         max-height: 100vh;
         opacity: 0;
         transition: .6s;
     }
-  
+
     .menu > div > div > ul > li{
         list-style: none;
     }
-  
+
     .menu > div > div > ul > li > a{
         text-decoration: none;
         color: #E8ABA1;
@@ -142,52 +142,52 @@
         font-size: 1.8rem;
         display: inline-block;
     }
-  
+
     .toggler:checked ~ .menu{
         visibility: visible;
     }
-  
+
     .toggler:checked ~ .menu > div{
         transform: translateX(-50%) translateY(-50%);
     }
-  
+
     .toggler:checked ~ .menu > div > div{
         opacity: 1;
     }
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
   }
   /* tablet.ipad */
   @media screen and (min-width: 600px) and (max-width: 921px) {
-  
+
       header{
         background-image: url("../images/home page foto.jpg");
         height: 100vh;
         background-position: center;
         background-repeat: none;
       }
-  
+
         .item-navigatie{
             display: none;
         }
-  
+
         .logo{
             margin-left: 28vw;
             height: 180px;
         }
-  
+
       .menu-wrap{
           position: absolute;
           top: 0;
           left: 0;
           z-index: 2;
       }
-  
+
       .toggler{
           position: absolute;
           top: 0.5rem;
@@ -198,7 +198,7 @@
           opacity: 0;
           cursor: pointer;
       }
-  
+
       .hamburger{
           position: absolute;
           top: 0.5rem;
@@ -210,7 +210,7 @@
           align-items: center;
           justify-content: center;
       }
-  
+
       .hamburger>div{
           position: absolute;
           width: 60%;
@@ -219,7 +219,7 @@
           background-color: #FF9100;
           transition: .4s;
       }
-  
+
       .hamburger>div:before{
           content: '';
           position: absolute;
@@ -231,7 +231,7 @@
           left: 0;
           transition: .4s;
       }
-  
+
       .hamburger>div:after{
           content: '';
           position: absolute;
@@ -243,20 +243,20 @@
           left: 0;
           transition: .4s;
       }
-  
+
       .toggler:checked + .hamburger>div{
           transform: rotate(135deg);
       }
-  
+
       .toggler:checked:hover + .hamburger>div{
           transform: rotate(225deg);
       }
-  
+
       .toggler:checked + .hamburger>div:before, .toggler:checked + .hamburger>div:after{
           top: 0;
           transform: rotate(90deg);
       }
-  
+
       .menu{
           position: fixed;
           top: 0;
@@ -266,7 +266,7 @@
           visibility: hidden;
           transition: .6s;
       }
-  
+
       .menu > div{
           position: absolute;
           top: 50%;
@@ -282,18 +282,18 @@
           text-align: center;
           transition: .6s;
       }
-  
+
       .menu > div > div{
           max-width: 90vw;
           max-height: 100vh;
           opacity: 0;
           transition: .6s;
       }
-  
+
       .menu > div > div > ul > li{
           list-style: none;
       }
-  
+
       .menu > div > div > ul > li > a{
           text-decoration: none;
           color: #E8ABA1;
@@ -305,15 +305,15 @@
           font-size: 1.8rem;
           display: inline-block;
       }
-  
+
       .toggler:checked ~ .menu{
           visibility: visible;
       }
-  
+
       .toggler:checked ~ .menu > div{
           transform: translateX(-50%) translateY(-50%);
       }
-  
+
       .toggler:checked ~ .menu > div > div{
           opacity: 1;
       }
@@ -323,47 +323,22 @@
 @media screen and (min-width: 922px) {
 
 
-    header {
+    /* header {
         background-image: url("../images/home page foto.jpg");
         height: 100vh;
         background-position: center;
         background-repeat: none;
-    }
-  
-    .item-navigatie {
-        float: right;
-        margin-right: 10vw;
-        margin-top: 0vh;
-    }
-    .item-navigatie ul {
-        list-style: none;
-        font-weight: bold;
-    }
-  
-    .item-navigatie li {
-        float: left;
-        padding: 2vh;
-        margin: 30px;
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-  
-    }
-    .item-navigatie li a {
-        text-decoration: none;
-    }
-    .item-navigatie li a:hover {
-        color: #FF9100;
-    }
-    .item-navigatie ul li a {
-        color: #FF9100;
-    }
-  
-    .logo {
-        margin-left: 8vw;
-        height: 120px;
-    }
-  
-    .menu-wrap {
-        display: none;
-    }  
+    } */
+
+
+
+      header{
+        background-image: url("../images/home page foto.jpg");
+        background-color: #1D1D1D;
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: none;
+      }
+
 }
