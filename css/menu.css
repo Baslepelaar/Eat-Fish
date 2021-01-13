@@ -325,11 +325,15 @@
 /* desktop */
 @media screen and (min-width: 922px) {
 
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 
   header{
     background-color: #1D1D1D;
     width: 100%;
     height: 110px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .item-navigatie{
@@ -347,7 +351,7 @@
     padding: 1vh;
     margin: 30px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
   }
     .item-navigatie li a{
@@ -374,23 +378,43 @@
   padding: 16px;
   border: none;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
   }
 
 .item-navigatie li {
   position: relative;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.dropdown-content {
+.dropdown-reviews {
+  display: none;
+  position: absolute;
+  left: 0.5vw;
+  top: 4vh;
+  min-width: 160px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-reservering {
   display: none;
   position: absolute;
   left: 0vw;
   top: 4vh;
   min-width: 160px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.dropdown-content a {
+.dropdown-reviews a {
 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-reservering a {
+
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   padding: 12px 16px;
   text-decoration: none;
@@ -398,8 +422,10 @@
 }
 
 
-#contact-item:hover .dropdown-content {
+.contact-item:hover .dropdown-reviews  {
   display: block;
 }
-
+.contact-item:hover .dropdown-reservering  {
+  display: block;
+}
 }
