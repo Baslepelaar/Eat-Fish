@@ -25,7 +25,7 @@
         padding-right: 10vw;
     }
 }
-    
+
 /* Tablet */
 @media screen and (min-width: 600px) and (max-width: 921px) {
 
@@ -54,10 +54,9 @@
     }
 
     .item-maintext p {
-        width: 1200px;
+
         text-align: center;
         padding-left: 18vw;
         padding-right: 18vw;
     }
 }
-
