@@ -10,7 +10,7 @@
 @media screen and (min-width: 100px) and (max-width:768.9px) {
 
     footer {
-      position:absolute;
+        position:absolute;
         left: 0;
         bottom: 0;
         width: 100%;
@@ -44,7 +44,6 @@
 /* Tabled */
 @media screen and (min-width: 769px) and (max-width:1025.9px) {
   footer {
-
     width: 100%;
     background-color: #1D1D1D;
     color: #FF9100;

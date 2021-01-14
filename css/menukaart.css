@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/* telefoon */
+@media screen and (min-width: 100px) and (max-width:767.9px) {
+
+body {
+  background-color: #EFEFEF;
+}
+
+  .MenukaartBackground {
+    position: absolute;
+    top: 17vh;
+    height: 130vw;
+    width: 100vw;
+    border-radius: 20px;
+  }
+
+  h4 {
+    position: relative;
+    top: 9vw;
+    margin-left: 33vw;
+    font-size: 30px;
+  }
+
+  .Hoofdtext1, .Hoofdtext2 {
+    bottom: 1.5vw;
+    position: relative;
+    font-size: 20px;
+  }
+
+  .Gerecht1, .Gerecht2, .Gerecht3, .Gerecht4, .Gerecht5 {
+    position: relative;
+    font-size: 18px;
+  }
+
+  .Gerecht1 {
+   top: 15vw;
+   margin-left: 10vw;
+  }
+
+  .Gerecht2 {
+    top: 5vw;
+  }
+
+  .Gerecht3 {
+    bottom: 75vw;
+    margin-left: 53vw;
+  }
+
+  .Gerecht4 {
+    bottom: 65vw;
+    margin-left: 55vw;
+  }
+
+  .Gerecht5 {
+    bottom: 55vw;
+    margin-left: 55vw;
+  }
+}
+
+/* tablet/ipad */
+@media screen and (min-width: 768px) and (max-width:1025.9px) {
+
+  body {
+    background-color: #EFEFEF;
+  }
+
+  .MenukaartBackground {
+    position: absolute;
+    left: 5vw;
+    top: 20vh;
+    height: 100vw;
+    width: 90vw;
+    border-radius: 20px;
+  }
+
+  h4 {
+    position: relative;
+    margin-left: 32vw;
+    font-size: 60px;
+    top: 9.5vw;
+  }
+
+  .Hoofdtext1, .Hoofdtext2 {
+    bottom: 1.5vw;
+    position: relative;
+    font-size: 35px;
+  }
+
+  .Gerecht1, .Gerecht2, .Gerecht3, .Gerecht4, .Gerecht5 {
+    position: relative;
+    font-size: 30px;
+  }
+
+  .Gerecht1 {
+   top: 13vw;
+   margin-left: 16vw;
+  }
+
+  .Gerecht2 {
+    top: 5vw;
+  }
+
+  .Gerecht3 {
+    bottom: 59vw;
+    margin-left: 54vw;
+  }
+
+  .Gerecht4 {
+    bottom: 53vw;
+    margin-left: 54vw;
+  }
+
+  .Gerecht5 {
+    bottom: 45vw;
+    margin-left: 54vw;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1026px) {
+
+  body {
+    background-color: #EFEFEF;
+  }
+
+  .MenukaartBackground {
+    position: absolute;
+    left: 28vw;
+    top: 15vh;
+    height: 50vw;
+    width: 50vw;
+    border-radius: 20px;
+  }
+
+h4 {
+  position: relative;
+  top: 5vw;
+  margin-left: 46vw;
+  font-size: 75px;
+}
+
+.Hoofdtext1, .Hoofdtext2 {
+  bottom: 1.5vw;
+  position: relative;
+  font-size: 55px;
+}
+
+.Gerecht1, .Gerecht2, .Gerecht3, .Gerecht4, .Gerecht5 {
+  position: relative;
+  font-size: 45px;
+}
+
+.Gerecht1 {
+  top: 9vw;
+  margin-left: 32vw;
+}
+
+.Gerecht2 {
+  top: 4vw;
+}
+
+.Gerecht3 {
+  bottom: 24vw;
+  margin-left: 55vw;
+}
+
+.Gerecht4 {
+  bottom: 20vw;
+  margin-left: 55vw;
+}
+
+.Gerecht5 {
+  bottom: 15vw;
+  margin-left: 55vw;
+}
+  }
