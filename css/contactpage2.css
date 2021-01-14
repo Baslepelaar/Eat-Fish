@@ -1,6 +1,7 @@
 @charset "UTF-8";
 *{
-  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -102,7 +103,7 @@
     border:solid 1px black;
 
   }
-  
+
 
 
 }

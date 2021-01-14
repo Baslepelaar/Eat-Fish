@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+*{
+  margin: 0;
+  padding: 0;
+}
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width:767.9px) {
 
@@ -126,34 +129,35 @@ body {
 
   .MenukaartBackground {
     position: absolute;
-    left: 28vw;
+    left: 15vw;
     top: 15vh;
-    height: 50vw;
-    width: 50vw;
+    height: 70vw;
+    width: 70vw;
     border-radius: 20px;
+    margin-top: 5vh;
   }
 
 h4 {
   position: relative;
   top: 5vw;
-  margin-left: 46vw;
-  font-size: 75px;
+  margin-left: 40vw;
+  font-size: 65px;
 }
 
 .Hoofdtext1, .Hoofdtext2 {
   bottom: 1.5vw;
   position: relative;
-  font-size: 55px;
+  font-size: 45px;
 }
 
 .Gerecht1, .Gerecht2, .Gerecht3, .Gerecht4, .Gerecht5 {
   position: relative;
-  font-size: 45px;
+  font-size: 37px;
 }
 
 .Gerecht1 {
   top: 9vw;
-  margin-left: 32vw;
+  margin-left: 22vw;
 }
 
 .Gerecht2 {
@@ -161,17 +165,17 @@ h4 {
 }
 
 .Gerecht3 {
-  bottom: 24vw;
+  bottom: 35vw;
   margin-left: 55vw;
 }
 
 .Gerecht4 {
-  bottom: 20vw;
+  bottom: 30vw;
   margin-left: 55vw;
 }
 
 .Gerecht5 {
-  bottom: 15vw;
+  bottom: 25.3vw;
   margin-left: 55vw;
 }
   }

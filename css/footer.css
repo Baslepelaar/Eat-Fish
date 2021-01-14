@@ -102,13 +102,12 @@
         }
 
         .item-pcfooter {
-
         }
 
         .item-adres {
           position: absolute;
           margin-top: 4vh;
-          left: 10vw;
+          left: 5vw;
           margin-bottom: 10vh;
 
         }
@@ -129,7 +128,7 @@
 
       .item-Openingstijden {
         position: absolute;
-        left: 35vw;
+        left: 30vw;
         margin-top: 4vh;
 
       }
@@ -137,14 +136,14 @@
 
       .item-betalen {
         position: absolute;
-        left: 60vw;
+        left: 55vw;
         margin-top: 4vh;
 
       }
 
       .item-socials {
         position: absolute;
-        left: 85vw;
+        left: 82vw;
         margin-top: 4vh;
       }
 
