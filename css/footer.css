@@ -9,15 +9,19 @@
 
 @media screen and (min-width: 100px) and (max-width:768.9px) {
 
-    footer {
-        position:absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #1D1D1D;
-        color: #FF9100;
-        text-align: center;
+
+
+
+    footer{
+      /* position:absolute;
+      left: 0;
+      bottom: 0; */
+      background-color: #1D1D1D;
+      color: #FF9100;
+      text-align: center;
+      width: 100%;
     }
+
 
     .item-pcfooter {
         display: none;
@@ -43,7 +47,15 @@
 
 /* Tabled */
 @media screen and (min-width: 769px) and (max-width:1025.9px) {
+
+  #footer-telefoon{
+    visibility: hidden;
+  }
+
+
+
   footer {
+
     width: 100%;
     background-color: #1D1D1D;
     color: #FF9100;
@@ -90,13 +102,12 @@
         }
 
         .item-pcfooter {
-
         }
 
         .item-adres {
           position: absolute;
           margin-top: 4vh;
-          left: 10vw;
+          left: 5vw;
           margin-bottom: 10vh;
 
         }
@@ -117,7 +128,7 @@
 
       .item-Openingstijden {
         position: absolute;
-        left: 35vw;
+        left: 30vw;
         margin-top: 4vh;
 
       }
@@ -125,14 +136,14 @@
 
       .item-betalen {
         position: absolute;
-        left: 60vw;
+        left: 55vw;
         margin-top: 4vh;
 
       }
 
       .item-socials {
         position: absolute;
-        left: 85vw;
+        left: 82vw;
         margin-top: 4vh;
       }
 
