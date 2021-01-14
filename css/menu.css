@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 /* telefoon */
 @media screen and (min-width: 100px) and (max-width: 599px) {
 
@@ -325,6 +325,9 @@
 /* desktop */
 @media screen and (min-width: 922px) {
 
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 
   header{
     background-color: #1D1D1D;
@@ -344,10 +347,9 @@
 
   .item-navigatie li{
     float: left;
-    padding: 2vh;
+    padding: 1vh;
     margin: 30px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
 
   }
     .item-navigatie li a{
@@ -371,26 +373,45 @@
 
 
   .dropbtn {
-padding: 16px;
-border: none;
-cursor: pointer;
-}
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+
+  }
 
 .item-navigatie li {
   position: relative;
 }
 
-.dropdown-content {
+.dropdown-reviews {
+  display: none;
+  position: absolute;
+  left: 0.5vw;
+  top: 4vh;
+  min-width: 160px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-reservering {
   display: none;
   position: absolute;
   left: 0vw;
   top: 4vh;
   min-width: 160px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.dropdown-content a {
-  
-  font-family: 'Roboto', sans-serif;
+.dropdown-reviews a {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-reservering a {
+
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   padding: 12px 16px;
   text-decoration: none;
@@ -398,11 +419,10 @@ cursor: pointer;
 }
 
 
-#contact-item:hover .dropdown-content {
+.contact-item:hover .dropdown-reviews  {
   display: block;
 }
-
-
-
-
+.contact-item:hover .dropdown-reservering  {
+  display: block;
+}
 }
