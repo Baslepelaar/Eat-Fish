@@ -9,7 +9,7 @@ body {
 
   .MenukaartBackground {
     position: absolute;
-    top: 17vh;
+    top: 22vh;
     height: 130vw;
     width: 100vw;
     border-radius: 20px;
@@ -17,7 +17,7 @@ body {
 
   h4 {
     position: relative;
-    top: 9vw;
+    top: 11vh;
     margin-left: 33vw;
     font-size: 30px;
   }
@@ -34,26 +34,26 @@ body {
   }
 
   .Gerecht1 {
-   top: 15vw;
+   top: 28vw;
    margin-left: 10vw;
   }
 
   .Gerecht2 {
-    top: 5vw;
+    top: 5vh;
   }
 
   .Gerecht3 {
-    bottom: 75vw;
+    bottom: 60vw;
     margin-left: 53vw;
   }
 
   .Gerecht4 {
-    bottom: 65vw;
+    bottom: 50vw;
     margin-left: 55vw;
   }
 
   .Gerecht5 {
-    bottom: 55vw;
+    bottom: 40vw;
     margin-left: 55vw;
   }
 }
